@@ -148,3 +148,49 @@ footer {
 .whatsapp-btn:hover {
     background-color: #1da851;
 }
+.page-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.banner {
+  background-color: white;   /* white background */
+  padding: 20px 0;
+}
+
+.banner-inner {
+  max-width: 1200px;
+  margin: 0 auto;           /* centers content */
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 900px;         /* prevents overscaling */
+  height: auto;
+  object-fit: contain;      /* NO cropping */
+  background-color: white;  /* safety */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #1f2a44;
+  padding: 15px 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
